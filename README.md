@@ -5,7 +5,7 @@
           const iframe = document.createElement("iframe")
           let text = "";
           try {
-              text = el.contentWindow.document.getElementsByTagName("pre").textContent 
+              text = document.getElementById("query").contentWindow.document.getElementsByTagName("pre")[0].textContent 
           } catch (error) {
               text = "NoNo"
           }
