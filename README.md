@@ -2,7 +2,7 @@
 <html>
     <head>
         <script>
-                  let text = "";
+                  let text = "TEST";
             
             const afterLoad = function() {
                   const iframe = document.createElement("iframe")
