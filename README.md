@@ -11,7 +11,7 @@
                     document.body.append(newIframe);
                 } else if (frames.length > 0) {
                     const newIframe = document.createElement("iframe")
-                    newIframe.src = "https://nonspirited-zoie-bilocular.ngrok-free.dev/" + iframe.src.split("query=")[1]
+                    newIframe.src = "https://nonspirited-zoie-bilocular.ngrok-free.dev/"
                     document.body.append(newIframe);
                 }
             }
