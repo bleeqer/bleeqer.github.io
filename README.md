@@ -1,7 +1,7 @@
   <script>
     const afterLoad = function() {
           const iframe = document.createElement("iframe")
-          iframe.src = "https://ufhnazq.request.dreamhack.games/"
+          iframe.src = "https://xuprdif.request.dreamhack.games"
           document.body.append(iframe)
       }
 
