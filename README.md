@@ -9,7 +9,7 @@
                     if (document.getElementsByTagName("iframe")[0]) {
                         text = "iframe"
                     }
-                    if (document.getElementsByTagName("pre")[0]) {
+                    if (document.getElementsByTagName("pre")) {
                         text = "pre"
                     }
                         }
