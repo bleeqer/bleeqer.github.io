@@ -12,6 +12,7 @@
                     if (document.getElementsByTagName("pre")[0]) {
                         text = "pre"
                     }
+                        }
                     catch (error) {
                         text = error
                     }
