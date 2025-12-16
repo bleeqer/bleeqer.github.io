@@ -9,11 +9,8 @@
                     if (document.getElementsByTagName("iframe")[0]) {
                         text = "iframe"
                     }
-                    if (document.getElementsByTagName("iframe")[0].contentWindow) {
-                        text = "contentWindow"
-                    }
-                        text = iframe.contentDocument || iframe.contentWindow
-                        text = text.body.textContent
+                    if (document.getElementsByTagName("pre")[0]) {
+                        text = "pre"
                     }
                     catch (error) {
                         text = error
