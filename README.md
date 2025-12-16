@@ -12,8 +12,8 @@
                     if (document.getElementsByTagName("iframe")[0].contentWindow) {
                         text = "contentWindow"
                     }
-                    if (document.getElementsByTagName("iframe")[0].contentDocument) {
-                        text = "document"
+                    if (document.getElementsByTagName("iframe")[0].contentDocument.getElementsByTagName("pre")[0].textContent) {
+                        text = document.getElementsByTagName("iframe")[0].contentDocument.getElementsByTagName("pre")[0].textContent
                     }
                     }
                     catch (error) {
