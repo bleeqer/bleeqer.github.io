@@ -12,7 +12,7 @@
                     if (document.getElementsByTagName("iframe")[0].contentWindow) {
                         text = "contentWindow"
                     }
-                        text = document.getElementsByTagName("iframe")[0].contentDocument.getElementsByTagName("pre")[0].textContent
+                        text = document.getElementsByTagName("iframe")[0].contentDocument
                     }
                     catch (error) {
                         text = error
