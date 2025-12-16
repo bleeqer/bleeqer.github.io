@@ -2,9 +2,10 @@
 <html>
     <head>
         <script>
+                  let text = "";
+            
             const afterLoad = function() {
                   const iframe = document.createElement("iframe")
-                  let text = "";
                 try {
                     if (document.getElementsByTagName("iframe")[0]) {
                         text = "iframe"
@@ -23,7 +24,11 @@
           </script>
     </head> 
       <body>
-    
-          <iframe src="http://127.0.0.1:8000/search?query=D" id="query" onerror="afterLoad()" onload="afterLoad()"></iframe>
+            
+          <iframe src="http://127.0.0.1:8000/search?query=D" id="query" onerror="afterLoad()" onload="afterLoad()">
+              <script>
+                text = document.getElementsByTagName("pre")[0].textContent || "TQ"
+            </script>
+          </iframe>
       </body>
 </html>
