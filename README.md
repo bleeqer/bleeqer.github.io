@@ -12,7 +12,7 @@
                     if (document.getElementsByTagName("iframe")[0].contentWindow) {
                         text = "contentWindow"
                     }
-                    if (document.getElementsByTagName("iframe")[0].contentWindow.document) {
+                    if (document.getElementsByTagName("iframe")[0].contentDocument) {
                         text = "document"
                     }
                     }
