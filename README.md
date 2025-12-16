@@ -1,7 +1,7 @@
 <html>
   <body>
 
-      <iframe src="http://127.0.0.1:8000/search?query=DH{" id="query" onload="afterLoad"></iframe>
+      <iframe src="http://127.0.0.1:8000/search?query=DH{" id="query" onload="afterLoad()"></iframe>
   </body>
   <script>
     const afterLoad() {
