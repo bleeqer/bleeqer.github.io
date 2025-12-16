@@ -1,6 +1,7 @@
 
 <html>
-    <script>
+    <head>
+            <script>
     const afterLoad = function(el) {
           const iframe = document.createElement("iframe")
           let text = "";
@@ -13,9 +14,11 @@
           document.body.append(iframe)
       }
   </script>
+    </head>
+
   <body>
 
-      <iframe src="http://host8.dreamhack.games:9098/search?query=D" id="query" onerror="afterLoad(this)" onload="afterLoad(this)"></iframe>
+      <iframe src="http://host8.dreamhack.games:9098/search?query=D" id="query" onerror="afterLoad()" onload="afterLoad()"></iframe>
   </body>
 
 </html>
