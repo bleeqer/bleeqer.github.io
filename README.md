@@ -1,9 +1,9 @@
   <script>
-    const afterLoad() {
+    const afterLoad = function() {
           const iframe = document.createElement("iframe")
-    iframe.src = "https://ufhnazq.request.dreamhack.games/"
-    document.body.append(iframe)
-    }
+          iframe.src = "https://ufhnazq.request.dreamhack.games/"
+          document.body.append(iframe)
+      }
 
   </script>
 <html>
