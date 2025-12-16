@@ -9,7 +9,7 @@
 <html>
   <body>
 
-      <iframe src="http://127.0.0.1:8000/search?query=DH{" id="query" onerror="afterLoad()" onload="afterLoad()"></iframe>
+      <iframe src="http://host8.dreamhack.games:9098/search?query=DH{" id="query" onerror="afterLoad()" onload="afterLoad()"></iframe>
   </body>
 
 </html>
