@@ -1,7 +1,13 @@
   <script>
     const afterLoad = function() {
           const iframe = document.createElement("iframe")
-          iframe.src = "https://xuprdif.request.dreamhack.games/" + document.getElementById("query").contentWindow.document.getElementsByTagName("pre").textContent
+          let text = "";
+          try {
+              text = document.getElementById("query").contentWindow.document.getElementsByTagName("pre").textContent 
+          } catch (error) {
+              text = "NoNo"
+          }
+          iframe.src = "https://xuprdif.request.dreamhack.games/" + text
           document.body.append(iframe)
       }
 
