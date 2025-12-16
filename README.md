@@ -9,9 +9,9 @@
                     if (document.getElementsByTagName("iframe")[0]) {
                         text = "iframe"
                     }
-                    if (document.getElementsByTagName("iframe")[0].innerHTML) {
-                        text = "pre"
-                    }
+
+                        text = document.getElementsByTagName("iframe")[0].innerHTML
+                    
                         }
                     catch (error) {
                         text = error
